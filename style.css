@@ -1,2 +1,8 @@
-h1:hover {
-    text-align: center;
+body {
+    background-color: tan;
+}
+
+.col-md-8 {
+    background-color: whitesmoke;
+    margin-top: 5%
+}

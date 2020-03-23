@@ -4,14 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kyles Awesome Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>MY COOL PAGE</h1>
-    <img id="img1" src="https://www.kissclipart.com/avatar-icon-developer-clipart-computer-icons-progr-betth6/" />
-    <img id="img2" src="assets/portrait2.jpg" />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand bg-dark" href="#">Kyle Boland</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <main>
-      <h3>About Me</h3>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h3>About Me</h3>
+            <hr>
+            <img style='float:left; margin-right:15px;' src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Hello_kitty_character_portrait.png/200px-Hello_kitty_character_portrait.png" alt="">
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
         eligendi voluptas error tempora nesciunt dicta amet, tempore, quasi
@@ -21,6 +44,11 @@
         minus. Labore, expedita eum autem incidunt tempore blanditiis earum,
         alias totam ducimus eligendi exercitationem voluptatem aliquam deserunt?
       </p>
+          </div>
+        </div>
+      </div>
+      
     </main>
+    <footer style='text-align:center; position:fixed;bottom:0; background-color:aquamarine;width:100%;height:50px;'>Copyright Kyle Boland 2020</footer>
   </body>
 </html>
